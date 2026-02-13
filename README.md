@@ -1,6 +1,6 @@
 # 📅 Day of the Week Finder
 
-![Status: Work in Progress](https://img.shields.io)
+![Status](https://img.shields.io/badge/Status-In--Progress-orange)
 
 A simple and friendly web tool that identifies which day of the week corresponds to a selected date. This project was one of my first steps into Frontend Development, created to explore how JavaScript handles dates and how to build modern UI effects.
 
