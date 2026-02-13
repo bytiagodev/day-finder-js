@@ -1,16 +1,26 @@
-# day-finder-js
+# 📅 Day of the Week Finder
 
-Day of the Week Finder
+![Status](https://img.shields.io/badge/Status-In--Progress-orange)
 
-This was one of my first projects learning Frontend Development. I built this to practice how JavaScript handles dates and how to create modern UI effects like Glassmorphism.
+A simple and friendly web tool that identifies which day of the week corresponds to a selected date. This project was one of my first steps into Frontend Development, created to explore how JavaScript handles dates and how to build modern UI effects.
 
-What I learned with this project:
+# 🚀 Live Demo
+[View Project Live](https://bytiagodev.github.io/day-finder-js/)
 
-JavaScript Date Object: How to get the specific day of the week from a user input.
+# ✨ About this project
+I built this to practice the fundamentals of web development in a practical way. Instead of just reading about code, I wanted to see how a user input could be transformed into a dynamic result on the screen.
 
-DOM Manipulation: Using JS to change the text on the screen without refreshing the page.
+# 🧠 What I practiced:
+*   **JavaScript Date Object:** Learning how to extract the specific weekday name from a user-selected date.
+*   **DOM Manipulation:** Updating the text on the page dynamically without needing to refresh.
+*   **Glassmorphism UI:** Experimenting with `backdrop-filter` and transparency to create a "frosted glass" look over a lake background.
+*   **Responsive Design:** Making sure the interface stays centered and readable on both desktop and smartphones.
+*   **Webkit Customization:** Learning how to style the native browser calendar icon to match a dark theme.
 
-CSS Glassmorphism: Using backdrop-filter and transparency to create a "frosted glass" effect.
+# 🛠️ Tech Stack
+*   **HTML5** (Semantic structure)
+*   **CSS3** (Glassmorphism, Flexbox, and Keyframe Animations)
+*   **Vanilla JavaScript** (Date Object and DOM API)
 
-Responsive Design: Making sure the card looks good on both desktop and smartphone.
-
+---
+*Feedback is always welcome as I continue my journey in Frontend Development!*
