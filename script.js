@@ -1,7 +1,8 @@
-function dayFinder() {
-    const dataInputEl = document.getElementById("dataInput");
-    const resultEl = document.getElementById("result");
+const dataInputEl = document.getElementById("dataInput");
+const showButtonEl = document.getElementById("showButton");
+const resultEl = document.getElementById("result");
 
+function dayFinder() {
     const dateValue = dataInputEl.value;
 
     if (!dateValue) {
@@ -31,3 +32,8 @@ function dayFinder() {
     `;
 }
 
+showButtonEl.addEventListener("click", dayFinder);
+
+dataInputEl.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") dayFinder();
+});
