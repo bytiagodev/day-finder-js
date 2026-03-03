@@ -1,28 +1,27 @@
-📅 Day of the Week Finder
+# 📅 Weekday Calculator // JS Utility
 
-A simple and friendly web tool that identifies which day of the week corresponds to a selected date. This was one of my first frontend projects, created to practice JavaScript date handling and basic UI design.
+A focused utility tool designed to determine the exact day of the week for any given date. This project was a practical exercise in **working with** the native **JavaScript Date Object** and creating a distraction-free user interface.
 
-🚀 Live Demo
-
-[View Project Live](https://bytiagodev.github.io/day-finder-js/)
-
-✨ About this project
-
-Built to practice the fundamentals of web development in a practical way. The app allows the user to select a date and instantly see which weekday it falls on, with a clean and simple interface.
-
-🧠 What I practiced
-
-JavaScript Date Object: Extracting the specific weekday from a user-selected date.
-DOM Manipulation: Updating the page dynamically without refresh.
-Glassmorphism UI: Using backdrop-filter and transparency to create a subtle frosted-glass effect over a background image.
-Responsive Layout: Ensuring the interface remains centered and readable on desktop and mobile.
-Webkit Customization: Styling the native calendar picker icon for dark themes.
-
-🛠️ Tech Stack
-
-HTML5 (Semantic structure)
-CSS3 (Flexbox, Glassmorphism, Keyframe Animations)
-Vanilla JavaScript (Date Object, DOM API)
+[**Live Demo**](https://bytiagodev.github.io/day-finder-js/)
 
 ---
-*This project was mainly for learning purposes. Feedback is always welcome!*
+
+### 🧠 The Journey
+Dates in programming can be notoriously tricky. I built this tool to move beyond basic tutorials and actually handle **user input validation** and date parsing. It was a great lesson in how to turn a simple mathematical logic (the Gregorian Calendar) into a functional web tool.
+
+### ✨ What I Explored
+*   **JS Date Object:** Learning how to accurately extract the specific weekday from a user-selected string.
+*   **Keyboard UX:** I implemented a listener for the "Enter" key so users can get results without switching from keyboard to mouse.
+*   **Glassmorphism UI:** Experimented with `backdrop-filter` and transparency to create a modern "frosted glass" effect that remains readable over a high-contrast background.
+*   **Webkit Customization:** Learned how to style the native browser calendar picker icon to fit a dark theme aesthetic.
+
+### 🛠️ Tech Stack
+*   **HTML5 & CSS3:** Semantic structure with custom keyframe animations for a smooth "Fade-in" result.
+*   **Vanilla JavaScript:** Pure logic using the `Date` API and DOM manipulation.
+
+---
+
+### 💬 Junior Notes
+This project taught me that sometimes the most useful tools are the simplest ones. It helped me realize the importance of handling "empty states" (when a user clicks without picking a date) to prevent app crashes.
+
+---
